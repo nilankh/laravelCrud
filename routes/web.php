@@ -8,3 +8,6 @@ Route::get('/', function () {
 });
 
 Route::get("/users", [UserController::class, 'loadAllUsers']);
+Route::get("/add/user", [UserController::class, 'loadAddUserForm']);
+
+Route::post("/add/user", [UserController::class, 'AddUser'])->name('AddUser');

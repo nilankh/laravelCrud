@@ -13,9 +13,10 @@
         <div class="card">
             <div class="card-header">
                 Harbour Space Crud
+                <a href="/add/user" class="btn btn-success btn-sm float-end">Add New</a>
             </div>
             <div class="card-body">
-                <table>
+                <table class="table table-sm table-striped table-bordered">
                     <thread>
                         <th>S/N</th>
                         <th>Full Name</th>
@@ -25,7 +26,7 @@
                         <th>Last Update</th>
                     </thread>
                     <tbody>
-                        
+
                     </tbody>
                 </table>
             </div>
